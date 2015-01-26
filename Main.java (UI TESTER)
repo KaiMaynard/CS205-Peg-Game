@@ -1,0 +1,70 @@
+import java.util.Scanner;
+import java.io.*;
+
+/*
+This simply tests out the userinterface I've made. it tests the two classes Peg.java, and UI.java.  
+
+Note: this UI only works for the triangular version of peg solitare. the english varient can be made from
+these classes with ease.  I will explain in detail the functions of each class, although they are fairly straight forward.
+*/
+
+public class Main
+{
+   public static void main(String[]args) throws IOException   
+   {
+      UI userInterface;
+      userInterface = new UI(15);
+      Peg peg1;
+      peg1 = new Peg(1,"X1");
+      Peg peg2;
+      peg2 = new Peg(2,"X2");
+      
+      Peg peg3 = new Peg(3,"X3");
+      
+      Peg peg4 = new Peg(4,"X4");
+      
+      Peg peg5 = new Peg(5,"X5");
+      
+      Peg peg6 = new Peg(6,"X6");
+      
+      Peg peg7 = new Peg(7,"X7");
+      
+      Peg peg8 = new Peg(8,"X8");
+      
+      Peg peg9 = new Peg(9,"X9");
+      
+      Peg peg10 = new Peg(10,"X10");
+      
+      Peg peg11 = new Peg(11,"X11");
+      
+      Peg peg12 = new Peg(12,"X12");
+      
+      Peg peg13 = new Peg(13,"X13");
+      
+      Peg peg14 = new Peg(14,"X14");
+      
+      Peg peg15 = new Peg(15,"X15");
+      
+      userInterface.addPeg(0,peg1);
+      userInterface.addPeg(1,peg2);
+      userInterface.addPeg(2,peg3);
+      userInterface.addPeg(3,peg4);
+      userInterface.addPeg(4,peg5);
+      userInterface.addPeg(5,peg6);
+      userInterface.addPeg(6,peg7);
+      userInterface.addPeg(7,peg8);
+      userInterface.addPeg(8,peg9);
+      userInterface.addPeg(9,peg10);
+      userInterface.addPeg(10,peg11);
+      userInterface.addPeg(11,peg12);
+      userInterface.addPeg(12,peg13);
+      userInterface.addPeg(13,peg14);
+      userInterface.addPeg(14,peg15);
+      
+
+      
+      userInterface.print();
+   }
+}
+   
+   
