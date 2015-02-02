@@ -1,0 +1,116 @@
+import java.util.Scanner;
+import java.io.*;
+
+
+public class Main
+{
+   public static void main(String[]args) throws IOException   
+   {
+      EngUI userInterface;
+      userInterface = new EngUI(33);
+      Peg peg1;
+      peg1 = new Peg(1,"[X1 ]");
+      Peg peg2;
+      peg2 = new Peg(2,"[X2 ]");
+      
+      Peg peg3 = new Peg(3,"[X3 ]");
+      
+      Peg peg4 = new Peg(4,"[X4 ]");
+      
+      Peg peg5 = new Peg(5,"[X5 ]");
+      
+      Peg peg6 = new Peg(6,"[X6 ]");
+      
+      Peg peg7 = new Peg(7,"[X7 ]");
+      
+      Peg peg8 = new Peg(8,"[X8 ]");
+      
+      Peg peg9 = new Peg(9,"[X9 ]");
+      
+      Peg peg10 = new Peg(10,"[X10]");
+      
+      Peg peg11 = new Peg(11,"[X11]");
+      
+      Peg peg12 = new Peg(12,"[X12]");
+      
+      Peg peg13 = new Peg(13,"[X13]");
+      
+      Peg peg14 = new Peg(14,"[X14]");
+      
+      Peg peg15 = new Peg(15,"[X15]");
+      
+      Peg peg16 = new Peg(16,"[X16]");
+      
+      Peg peg17 = new Peg(17,"[O1 ]");
+      
+      Peg peg18 = new Peg(18,"[X17]");
+      
+      Peg peg19 = new Peg(19,"[X18]");
+      
+      Peg peg20 = new Peg(20,"[X19]");
+      
+      Peg peg21 = new Peg(21,"[X20]");
+      
+      Peg peg22 = new Peg(22,"[X21]");
+      
+      Peg peg23 = new Peg(23,"[X22]");
+      
+      Peg peg24 = new Peg(24,"[X23]");
+      
+      Peg peg25 = new Peg(25,"[X24]");
+      
+      Peg peg26 = new Peg(26,"[X25]");
+      
+      Peg peg27 = new Peg(27,"[X26]");
+      
+      Peg peg28 = new Peg(28,"[X27]");
+      
+      Peg peg29 = new Peg(29,"[X28]");
+      
+      Peg peg30 = new Peg(30,"[X29]");
+      
+      Peg peg31 = new Peg(31,"[X30]");
+      
+      Peg peg32 = new Peg(32,"[X31]");
+      
+      Peg peg33 = new Peg(32,"[X32]");
+      
+      userInterface.addPeg(0,peg1);
+      userInterface.addPeg(1,peg2);
+      userInterface.addPeg(2,peg3);
+      userInterface.addPeg(3,peg4);
+      userInterface.addPeg(4,peg5);
+      userInterface.addPeg(5,peg6);
+      userInterface.addPeg(6,peg7);
+      userInterface.addPeg(7,peg8);
+      userInterface.addPeg(8,peg9);
+      userInterface.addPeg(9,peg10);
+      userInterface.addPeg(10,peg11);
+      userInterface.addPeg(11,peg12);
+      userInterface.addPeg(12,peg13);
+      userInterface.addPeg(13,peg14);
+      userInterface.addPeg(14,peg15);
+      userInterface.addPeg(15,peg16);
+      userInterface.addPeg(16,peg17);
+      userInterface.addPeg(17,peg18);
+      userInterface.addPeg(18,peg19);
+      userInterface.addPeg(19,peg20);
+      userInterface.addPeg(20,peg21);
+      userInterface.addPeg(21,peg22);
+      userInterface.addPeg(22,peg23);
+      userInterface.addPeg(23,peg24);
+      userInterface.addPeg(24,peg25);
+      userInterface.addPeg(25,peg26);
+      userInterface.addPeg(26,peg27);
+      userInterface.addPeg(27,peg28);
+      userInterface.addPeg(28,peg29);
+      userInterface.addPeg(29,peg30);
+      userInterface.addPeg(30,peg31);
+      userInterface.addPeg(31,peg32);
+      userInterface.addPeg(32,peg33);
+      
+      userInterface.print();
+   }
+}
+   
+   
